@@ -66,7 +66,7 @@
             <img src="img/galeria2.jpg" class="card-img-top" alt="Foto 2" />
             <div class="card-body">
               <h5 class="card-title">Paisaje Dorado</h5>
-              <p class="card-text">La luz del atardecer sobre las montañas.</p>
+              <p class="card-text">La luz del atardecer sobre los arboles.</p>
             </div>
           </div>
         </div>
@@ -165,6 +165,31 @@
       </div>
     </main>
 
+    <!-- Modal de imagen ampliada -->
+    <div class="modal fade" id="imagenModal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content bg-dark border-0">
+          <div class="modal-body p-0">
+            <img
+              src=""
+              id="modalImagen"
+              class="img-fluid w-100"
+              alt="Imagen ampliada"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Botón Scroll Up -->
+    <button
+      id="btnScrollTop"
+      class="btn btn-primary rounded-circle shadow"
+      title="Volver arriba"
+    >
+      ↑
+    </button>
+
     <!-- Footer -->
     <footer class="bg-dark text-white text-center py-3 mt-auto">
       <div class="container">
@@ -175,5 +200,7 @@
     </footer>
 
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="js/galeria.js"></script>
+    <script src="js/scrollup.js"></script>
   </body>
 </html>
