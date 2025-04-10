@@ -1,0 +1,64 @@
+/* ======= Reset general ======= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ======= Estructura base ======= */
+html,
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa; /* fondo claro como en Bootstrap */
+}
+
+/* ======= Contenido principal ======= */
+main {
+  flex: 1;
+  padding: 2rem 0;
+}
+
+/* ======= Imagen de presentación ======= */
+img.rounded-circle {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* ======= Footer ======= */
+footer {
+  margin-top: auto;
+  background-color: #212529;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+/* ======= Encabezados ======= */
+h1,
+h2 {
+  color: #212529;
+}
+
+/* ======= Texto principal ======= */
+p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* ======= Navbar personalizado (opcional) ======= */
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+}
